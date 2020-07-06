@@ -68,7 +68,9 @@ let g:ctrlp_show_hidden=1
 
 " Nice for exploring files
 nnoremap J 5j
+vnoremap J 5j
 nnoremap K 5k
+vnoremap K 5k
 
 " Quick and easy way to switch tabs
 nnoremap H gT
