@@ -3,5 +3,6 @@
 - link:
     ~/.tmux.conf: tmux.conf
     ~/.vimrc: vimrc
+    ~/.bashrc: bashrc
 
 
