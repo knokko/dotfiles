@@ -120,5 +120,7 @@ fi
 [ ! -s /home/tim/.travis/travis.sh ] || source /home/tim/.travis/travis.sh
 
 
-#My own aliases
-alias attach="tmux a"
+# My own aliases
+alias nmux='function _nmux(){ tmux new -t $1; };_nmux'
+alias amux='function _amux(){ tmux a -t $1; };_amux'
+
