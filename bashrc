@@ -123,4 +123,9 @@ fi
 # My own aliases
 alias nmux='function _nmux(){ tmux new -t $1; };_nmux'
 alias amux='function _amux(){ tmux a -t $1; };_amux'
-
+alias falcon='ssh -A cyr-millenniumfalcon.hive'
+alias delvol='docker-compose -p ${PWD##*/}-cypress down -v'
+alias deldb='docker-compose -p ${PWD##*/}-cypress rm db'
+alias jv='sudo update-alternatives --config java'
+alias gsu='git submodule update --recursive'
+alias c='function _c(){ gcc -o $1 $1.c && ./$1; };_c'
