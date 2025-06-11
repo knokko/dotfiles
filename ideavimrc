@@ -42,3 +42,4 @@ let g:NERDTreeMapQuit = 'f'
 set NERDTree
 
 nnoremap f :NERDTree <Enter>
+nnoremap F :NERDTreeFind <Enter>
