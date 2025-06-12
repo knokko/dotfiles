@@ -76,6 +76,9 @@ vnoremap K 5k
 nnoremap H gT
 nnoremap L gt
 
+" More convenient for closing files
+nnoremap q :q<Enter>
+
 " Try to prevent bad habits like using the arrow keys for movement. This is
 " not the only possible bad habit. For example, holding down the h/j/k/l keys
 " for movement, rather than using more efficient movement commands, is also a

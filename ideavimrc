@@ -43,3 +43,11 @@ set NERDTree
 
 nnoremap f :NERDTree <Enter>
 nnoremap F :NERDTreeFind <Enter>
+
+nnoremap gd :action GotoDeclaration<CR>
+nnoremap s :action ShowHoverInfo<CR>
+nnoremap c :action ActivateTerminalToolWindow<CR>
+nnoremap m :action MethodDown<CR>
+nnoremap M :action MethodUp<CR>
+nnoremap e :action GotoNextError<CR>
+nnoremap E :action GotoPreviousError<CR>
