@@ -1,0 +1,34 @@
+{
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 1,
+    "explorer.confirmDragAndDrop": false,
+    "vim.vimrc.enable": true,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["f"],
+            "commands": [
+                "workbench.view.explorer",
+            ],
+        },
+        {
+            "before": ["f"],
+            "commands": [
+                "workbench.view.explorer",
+            ],
+        },
+        {
+            "before": ["q"],
+            "after": [":", "q", "<Enter>"]
+        },
+        {
+            "before": ["s"],
+            "commands": ["editor.action.peekDefinition"]
+        },
+        
+    ],
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+}
