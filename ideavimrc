@@ -38,7 +38,8 @@ let g:NERDTreeMapCloseDir = 'h'
 let g:NERDTreeMapQuit = 'f'
 set NERDTree
 
-nnoremap f :NERDTreeFind <Enter>
+nnoremap f :NERDTree <Enter>
+nnoremap F :NERDTreeFind <Enter>
 nnoremap c :action ActivateTerminalToolWindow<CR>
 
 nnoremap s :action ShowHoverInfo<CR>
@@ -51,5 +52,3 @@ nnoremap E :action GotoPreviousError<CR>
 
 nnoremap q :wq<Enter>
 nnoremap Q :wa<Enter>:qa<Enter>
-
-nnoremap F :action ShowIntentionActions<CR>
