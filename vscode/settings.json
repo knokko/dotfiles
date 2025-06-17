@@ -21,14 +21,21 @@
             ],
         },
         {
-            "before": ["q"],
-            "after": [":", "q", "<Enter>"]
-        },
-        {
             "before": ["s"],
             "commands": ["editor.action.peekDefinition"]
         },
-        
+        {
+            "before": ["S"],
+            "commands": ["editor.action.revealDefinition"]
+        },
+        {
+            "before": ["e"],
+            "commands": ["editor.action.marker.next"]
+        },
+        {
+            "before": ["E"],
+            "commands": ["editor.action.marker.prev"]
+        }
     ],
     "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
 }
