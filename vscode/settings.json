@@ -15,10 +15,8 @@
             ],
         },
         {
-            "before": ["f"],
-            "commands": [
-                "workbench.view.explorer",
-            ],
+            "before": ["Q"],
+            "after": [":", "q", "a", "<Enter>"]
         },
         {
             "before": ["s"],
@@ -38,4 +36,47 @@
         }
     ],
     "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+    "workbench.colorTheme": "Rainbow Syntax Highlighter",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "Nice comments",
+                "scope": ["comment.line.double-slash", "comment.line.number-sign.python"],
+                "settings": {
+                    "foreground": "#FF0000"
+                }
+            },
+            {
+                "name": "Better variables",
+                "scope": ["variable.object.property.tsx", "meta.object-literal.key.tsx"],
+                "settings": {
+                    "foreground": "#DD00EE"
+                }
+            },
+            {
+                "name": "Better strings",
+                "scope": ["string.quoted.single"],
+                "settings": {
+                    "foreground": "#22BBEE"
+                }
+            },
+            {
+                "name": "Better fixtures",
+                "scope": ["string.template.ts"],
+                "settings": {
+                    "foreground": "#22EEBB"
+                }
+            }
+        ],
+    },
+    "workbench.colorCustomizations": {
+        "editor.background": "#000044",
+        "editorGutter.commentGlyphForeground": "#EEEEEE",
+        "sideBar.background": "#000055",
+        "sideBar.foreground": "#DD00EE",
+        "tab.activeBackground": "#550000",
+        "tab.activeForeground": "#DD00EE",
+        "tab.inactiveBackground": "#330000",
+        "tab.inactiveForeground": "#DD00EE",
+    },
 }
